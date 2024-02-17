@@ -56,6 +56,28 @@ class TrianguloTest {
         assertEquals(tipoDeTrianguloEsperado,triangulo.identificarTipo());
     }
 
+    //Test triangulo Isóceles
+    @Test
+    public void testTrianguloIsoceles(){
+        double lado1=3;
+        double lado2=3;
+        double lado3=6;
+        Triangulo triangulo = new Triangulo(lado1, lado2, lado3);
+        String tipoDeTrianguloEsperado = "Isósceles";
+        assertEquals(tipoDeTrianguloEsperado,triangulo.identificarTipo());
+    }
+
+    //Test triangulo Escaleno
+    @Test
+    public void testTrianguloEscaleno(){
+        double lado1=3;
+        double lado2=4;
+        double lado3=6;
+        Triangulo triangulo = new Triangulo(lado1, lado2, lado3);
+        String tipoDeTrianguloEsperado = "Escaleno";
+        assertEquals(tipoDeTrianguloEsperado,triangulo.identificarTipo());
+    }
+
     //Test que cumple con desigualdad triangular
     @Test
     public void testDesigualdadTriangularValida() throws ExcepcionDesigualdadTriangular {
