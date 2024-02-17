@@ -1,0 +1,24 @@
+feb. 16, 2024 6:19:47 P. M. org.example.Main main
+GRAVE: Error: 
+excepciones.ExcepcionLadoNegativo: Los lados del triangulo no pueden ser negativos
+	at org.example.Triangulo.comprobarValores(Triangulo.java:51)
+	at org.example.Main.main(Main.java:26)
+
+feb. 16, 2024 6:22:51 P. M. org.example.Main main
+GRAVE: Error: 
+excepciones.ExcepcionDesigualdadTriangular: El triangulo no cumple la desigualdad triangular
+	at org.example.Triangulo.verificarDesigualdadTriangular(Triangulo.java:61)
+	at org.example.Main.main(Main.java:24)
+
+feb. 17, 2024 1:30:46 A. M. org.example.Main main
+GRAVE: Error: 
+excepciones.ExcepcionDesigualdadTriangular: El triangulo no cumple la desigualdad triangular
+	at org.example.Triangulo.verificarDesigualdadTriangular(Triangulo.java:61)
+	at org.example.Main.main(Main.java:25)
+
+feb. 17, 2024 1:31:21 A. M. org.example.Main main
+GRAVE: Error: 
+excepciones.ExcepcionDesigualdadTriangular: El triangulo no cumple la desigualdad triangular
+	at org.example.Triangulo.verificarDesigualdadTriangular(Triangulo.java:61)
+	at org.example.Main.main(Main.java:25)
+
